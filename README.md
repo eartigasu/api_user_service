@@ -10,7 +10,8 @@ Se adjunta en la carpeta raíz el .sql de creacion de la bd y tambien el .png co
 ## Instalación del Proyecto
     ** Consideracions: Tener instalado Java y Maven
         1. **Clonar Repositorio:**
-            git clonegit@github.com:eartigasu/api_user_service.git
+            Clonar desde la siguiente url
+            https://github.com/eartigasu/api_user_service.git
 
         2. **Base Datos(Opcional):**
             El proyecto cuenta con BD H2 que arranca junto con springboot, si se desea montar fisicamente dicha base de datos, se adjunta un script con la generacion de las tablas.
