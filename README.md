@@ -10,7 +10,7 @@ Se adjunta en la carpeta raíz el .sql de creacion de la bd y tambien el .png co
 ## Instalación del Proyecto
     ** Consideracions: Tener instalado Java y Maven
         1. **Clonar Repositorio:**
-            git clonegit@github.com:eartigasu/test-user-service.git
+            git clonegit@github.com:eartigasu/api_user_service.git
 
         2. **Base Datos(Opcional):**
             El proyecto cuenta con BD H2 que arranca junto con springboot, si se desea montar fisicamente dicha base de datos, se adjunta un script con la generacion de las tablas.
@@ -24,16 +24,16 @@ Se adjunta en la carpeta raíz el .sql de creacion de la bd y tambien el .png co
    
 ## Uso de la API
 1. **Acceder a la Aplicación:**
-    La aplicación estará disponible en http://localhost:8080.
+    La aplicación estará disponible en http://localhost:8080/api/users.
 
-2. **Probar la API:**
+3. **Probar la API:**
     Utilice herramientas como Postman o curl para interactuar con la API. Tambien puede hacer uso de Swagger
 
-3. **Probar desde Swagger**
+4. **Probar desde Swagger**
     Ingresar a la siguiente url: http://localhost:8080/swagger-ui/index.html#/
     En esta url se encontrara el endpoint de creacion de usuario con la información del microservicio
 
-4. **Crear Usuario:**
+5. **Crear Usuario:**
     - Endpoint: `http://localhost:8080/api/users`
     - Método: `POST`
     - Content-Type: `application/json`
