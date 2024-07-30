@@ -40,10 +40,5 @@ Se adjunta en la carpeta raíz el archivo .sql para la creación de las tablas p
 4. **Probar desde Swagger:**
     Ingresar a la siguiente URL: http://localhost:8080/swagger-ui/index.html#/
     En esta URL se encontrará el endpoint de creación de usuarios con la información del microservicio.
-
-5. **Crear Usuario:**
-    - Endpoint: `http://localhost:8080/api/users`
-    - Método: `POST`
-    - Content-Type: `application/json`
   
 ## Para mayor información de la API, respecto a requests, responses y códigos de respuesta, se puede consultar desde Swagger http://localhost:8080/swagger-ui/index.html#/
